@@ -1,0 +1,70 @@
+.listing-each {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid grey;
+    background-color: bisque;
+    width: 750px;
+}
+
+.listing-image {
+    height: 100px;
+    width: 200px;
+    display: table-cell;
+}
+
+.listing-details {
+    margin-left: 10px;
+    display: table-cell;
+}
+
+.listing-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.listing-type {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.listing-cost {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: 0px;
+}
+
+.listing-desc {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    color: darkgreen;
+    font-weight: 600;
+    text-transform: uppercase;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.listing-atc {
+    display: table-cell;
+    padding-top: 5px;
+    position: absolute;
+    left: 600px;
+    
+}
+
+.atc-btn {
+    background-color: coral;
+    border-style: ridge;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
